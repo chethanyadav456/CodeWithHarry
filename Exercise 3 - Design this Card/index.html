@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3 - Design this Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(135, 222, 135);
+        }
+
+        .card {
+            width: 321px;
+            border-radius: 15px;
+            border: 1px solid rgb(179, 168, 168);
+            margin: 60px;
+            background-color: antiquewhite
+        }
+
+        .card-img {
+            width: 300px;
+            border-radius: 10px;
+            margin: 10px 10px;
+        }
+
+        .card-tags {
+            margin: 10px 20px;
+        }
+        
+        .card-tags span {
+            border: 1px solid gray;
+            border-radius: 40%;
+            padding: 5px;
+            margin: 4px;
+            font-size: 14px;
+        }
+
+        .card-details {
+            margin: 10px 20px;
+            word-break: break-all;
+        }
+        .card-button {
+            text-align: center;
+        }
+        .card-button button{
+            border-radius: 10px;
+            background-color: rgb(6, 152, 236);
+            padding: 10px 20px;
+            border: none;
+            margin: 20px;
+            text-align: center;
+            /* margin-top: -40px;
+            margin-left: 5px; */
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- card.png is a file which contains a card Image. Write html and css code to design this card. Use #html -->
+
+    <div class="card">
+        <div class="card-img">
+            <img src="sample_img.png" alt="card" width="300px" height="200px">
+        </div>
+        <div class="card-tags">
+            <span>Nature</span>
+            <span>Photography</span>
+        </div>
+        <div class="card-details">
+            <h2>Card Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo consectetur dicta fuga ea at
+                vitae suscipit, repellendus illum deleniti laboriosam ipsa distinctio.</p>
+        </div>
+        <div class="card-button">
+            <button>Read More</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
